@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jsgaj:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="jsgaj.war">
+      <element id="artifact" artifact-name="jsgaj:war exploded" />
+    </root>
+  </artifact>
+</component>

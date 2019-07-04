@@ -1,0 +1,77 @@
+
+jdbcUrl=jdbc:mysql://localhost:3306/jsgaj?useUnicode=true&CharacterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&autoReconnect=true&failOverReadOnly=false&useCursorFetch=true&defaultFetchSize=100
+user=root
+password=123456
+devMode=true
+driverClassName=com.mysql.jdbc.Driver
+
+#jdbcUrl=jdbc:sqlserver://localhost:56158;DatabaseName=DB20170001
+#user=oa
+#password=123456
+#devMode=true
+#driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+
+#下载路径=默认
+defaultDir=defaultUpload\\
+execl=execl\\
+
+#socket端口=socket1 、socket2 和 websocket
+socketPort1=8500
+socketPort2=8889
+websocketPort=8888
+
+#短信
+dx_api=http://41.226.181.2:9080/OpenMasService
+dx_applicationId=dufh3-83dh6d2s-j9sjd73y
+dx_password=|izfUBAoWmeu
+dx_extendCode=2
+dx_send=false
+dx_dev=true
+dx_dev_mobile=15205834418
+
+# execl 默认最小长度
+execlLength=15
+
+# 微信服务器回调所用的 token
+token=__my__token__
+
+# 测试用的账号
+appId=
+appSecret=
+webAppId=___web appid___
+webAppSecret=_________web appSecret____
+
+#是否对消息进行加密，是否对消息进行加密，对应于微信平台的消息加解密方式，false支持明文模式及兼容模式，true支持安全模式及兼容模式
+encryptMessage=true
+encodingAesKey=5C8csBd4cG4c9039OKDnNaZmYlkAzXV31piXQFRZKHC
+
+#手机验证码
+yzmPhone=15205834418
+yzmMsg=验证码:
+
+#微信支付
+#商户号
+mch_id=
+#密钥设置
+paternerKey=
+
+#通知账号
+notify_email=572839485@qq.com
+notify_mobile=13545191275
+notify_email_test=572839485@qq.com
+notify_mobile_test=13545191275
+
+
+#####业务逻辑中的华丽的分割线#########
+#授权域名
+domain=
+subscribe_rul=http://mp.weixin.qq.com/s?__biz=MzA4MDA2OTA0Mg==&mid=208184833&idx=1&sn=d9e615e45902c3c72db6c24b65c4af3e#rd
+
+#百度翻译 http://api.fanyi.baidu.com/api/trans/product/index
+bt_appId=xxx
+bt_appKey=xxxx
+#百度http://apistore.baidu.com/
+apiKey=xxxx
+#聚合
+jh_key=xxxx
